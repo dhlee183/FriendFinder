@@ -7,37 +7,31 @@
 
 	<script src="https://use.fontawesome.com/046b75ef43.js"></script>
 
-	<!-- Bootstrap CDN -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-	<!-- jQuery CDN -->
-	<script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha256-cCueBR6CsyA4/9szpPfrX3s49M9vUU5BgtiJj06wt/s=" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
 
 <body>
 	<div class="container">
-		<div class="row">
-			<div class="jumbotron">
-				<div lass="panel panel-default">
-					<div class="panel-heading">
-						<h1><i class="fa fa-facebook-square" aria-hidden="true"></i> Friend Finder</h1>
-					</div>	
-					<div class="panel-body">
-						<h2>Answer a few basic questions.</h2>
-						<h2>Then find the friend with the greatest compatibility!</h2>
-						<br>
-						<button id="surveyButton" type="button" class="btn btn-primary"><h4><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</h4></button>
-					</div>	
-				</div>
+		<div class="jumbotron">
+			<h1><i class="fa fa-facebook-square" aria-hidden="true"></i> Friend Finder</h1>
+			<hr>	
+			<h2>Answer a few basic questions.</h2>
+			<h2>Then find the friend with the greatest compatibility!</h2>
+			<br>
+			<a href="/survey">
+				<button id="surveyButton" type="button" class="btn btn-primary"><h4><span class="glyphicon glyphicon-list-alt"></span> Go to Survey</h4></button>
+			</a>
+		</div>
+		
+		<footer class="footer">
+			<div class="container">
+				<p>
+					<a href="/api/friends">API Friends List</a>
+					|
+					<a href="https://github.com/hyun183/FriendFinder">GitHub Repo</a>
+				</p>	
 			</div>
-		</div>
-
-		<div class="row">
-			<ul class="nav navbar-nav">
-				<li><a href="">API Friends List</a></li>
-				<li><a href="https://github.com/hyun183/FriendFinder">GitHub Repo</a></li>
-			</ul>
-		</div>
+		</footer>
 	</div>
 </body>
 
